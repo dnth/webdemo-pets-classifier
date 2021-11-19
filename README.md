@@ -1,5 +1,5 @@
 ---
-title: Pet_classifier
+title: webdemo-pets-classifier
 emoji: 🏃
 colorFrom: red
 colorTo: purple
