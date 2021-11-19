@@ -10,6 +10,9 @@ def predict(img):
     pred,pred_idx,probs = learn.predict(img)
     return {labels[i]: float(probs[i]) for i in range(len(labels))}
 
+import os
+for root, dirs, files in os.walk(r'sample_image/'):
+
 title = "Pet Breed Classifier"
 description = "A pet breed classifier trained on the Oxford Pets dataset"
 interpretation='default'
