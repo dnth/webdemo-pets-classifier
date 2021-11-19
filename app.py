@@ -12,6 +12,8 @@ def predict(img):
 
 import os
 for root, dirs, files in os.walk(r'sample_image/'):
+    for filename in files:
+        print(filename)
 
 title = "Pet Breed Classifier"
 description = "A pet breed classifier trained on the Oxford Pets dataset"
