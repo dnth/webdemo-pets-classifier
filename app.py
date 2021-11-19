@@ -13,7 +13,7 @@ def predict(img):
 title = "Pet Breed Classifier"
 description = "A pet breed classifier trained on the Oxford Pets dataset"
 interpretation='default'
-examples = ['siamese.jpg', 'kitten.jpg']
+examples = ["sample_images/"+file for file in files] 
 article="<p style='text-align: center'><a href='https://dicksonneoh.com' target='_blank'>Blog post</a></p>"
 enable_queue=True
 
